@@ -1,0 +1,12 @@
+spring.kafka:
+    bootstrap-servers: "PLAINTEXT://kafka.br.internal:9092"
+
+    properties:
+      schema.registry.url: "https://schema-registry.prod.hmheng-infra.br.internal"
+      specific.avro.reader: true
+
+    producer:
+      key-serializer: "io.confluent.kafka.serializers.KafkaAvroSerializer"
+      value-serializer: "io.confluent.kafka.serializers.KafkaAvroSerializer"
+
+topic: "hmheng-hmh.int.order-notifications"

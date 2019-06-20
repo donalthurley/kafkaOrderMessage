@@ -1,0 +1,19 @@
+{
+	"namespace" : "com.hmhco.hmh.avro",
+	"type" : "record",
+	"name" : "OrderNotificationMessage",
+	"fields" : [{
+			"name" : "type",
+			"type" : "string",
+			"default" : "null"
+		}, {
+			"name" : "value",
+			"type" : "string",
+			"default" : "null"
+		}, {
+			"name" : "targetDate",
+			"type" : "string",
+			"default" : "null"
+		}
+	]
+}
