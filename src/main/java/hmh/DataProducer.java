@@ -1,6 +1,6 @@
 package hmh;
 
-import com.hmhco.hmh.avro.OrderNotificationMessage;
+import com.hmhco.clm.avro.OrderNotificationMessage;
 import com.opencsv.CSVReader;
 import io.codearte.jfairy.Fairy;
 import org.slf4j.Logger;

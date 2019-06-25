@@ -1,5 +1,5 @@
 {
-	"namespace" : "com.hmhco.hmh.avro",
+	"namespace" : "com.hmhco.clm.avro",
 	"type" : "record",
 	"name" : "OrderNotificationMessage",
 	"fields" : [{

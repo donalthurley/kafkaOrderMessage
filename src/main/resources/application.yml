@@ -9,4 +9,4 @@ spring.kafka:
       key-serializer: "io.confluent.kafka.serializers.KafkaAvroSerializer"
       value-serializer: "io.confluent.kafka.serializers.KafkaAvroSerializer"
 
-topic: "hmheng-hmh.int.order-notifications"
+topic: "hmheng-clm.int.order-notifications"
